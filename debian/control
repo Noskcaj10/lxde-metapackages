@@ -36,7 +36,8 @@ Depends:
  lxrandr, lxsession-edit, lxshortcut, lxterminal, obconf, xarchiver
 Recommends:
  chromium-browser | iceweasel | www-browser, gdm3 | x-display-manager,
- lxmusic, menu-xdg, policykit-1-gnome, xserver-xorg
+ lxmusic, menu-xdg, network-manager-gnome | connman,
+ policykit-1-gnome | lxpolkit, xserver-xorg
 Suggests: lxlauncher, lxtask
 Description: LXDE metapackage
  LXDE (the Lightweight X11 Desktop Environment) is a project aimed
