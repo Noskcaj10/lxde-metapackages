@@ -1,0 +1,51 @@
+Source: lxde-metapackages
+Section: metapackages
+Priority: optional
+Maintainer: Debian LXDE Maintainers <lxde-debian@lists.lxde.org>
+Uploaders:
+ Andrew Lee (李健秋) <ajqlee@debian.org>, Daniel Baumann <daniel@debian.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.3
+Homepage: http://www.lxde.org/
+Vcs-Browser: http://git.lxde.org/gitweb/?p=debian/lxde-metapackages.git
+Vcs-Git: git://git.lxde.org/git/debian/lxde-metapackages.git
+
+Package: lxde-core
+Architecture: all
+Depends:
+ ${misc:Depends}, desktop-file-utils, lxde-common,
+ lxpanel, openbox, pcmanfm (>= 0.9.8)
+Recommends: gksu, lxterminal | x-terminal-emulator, xscreensaver
+Suggests: chromium-browser | www-browser, lxlauncher
+Description: LXDE core metapackage
+ LXDE (the Lightweight X11 Desktop Environment) is a project aimed
+ to provide a desktop environment which is lightweight and fast.
+ .
+ This package is a metapackage depends on the recommended core components
+ of the LXDE. It includes pcmanfm, lxpanel, lxsession, openbox and
+ xscreensaver.
+ .
+ If you just want to pick and choose the core components then feel free
+ to remove this package.
+
+Package: lxde
+Architecture: all
+Depends:
+ ${misc:Depends}, gpicview, leafpad, lxappearance,
+ lxde-core, lxde-icon-theme, lxinput,
+ lxrandr, lxsession-edit, lxshortcut, lxterminal, obconf, xarchiver
+Recommends:
+ chromium-browser | iceweasel | www-browser, gdm | x-display-manager,
+ lxmusic, menu-xdg, policykit-1-gnome, xserver-xorg
+Suggests: lxlauncher, lxtask
+Description: LXDE metapackage
+ LXDE (the Lightweight X11 Desktop Environment) is a project aimed
+ to provide a desktop environment which is lightweight and fast.
+ .
+ This package is a metapackage depends on the core components and
+ recommended components of the LXDE. It includes lxde-core, lxappearance,
+ lxinput, lxsession-edit, lxshortcut, gpicview, lxterminal, lxmusic,
+ leafpad and xarchiver.
+ .
+ If you just want to pick and choose the core components then feel free
+ to remove this package.
