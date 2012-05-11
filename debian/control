@@ -16,7 +16,7 @@ Depends:
  ${misc:Depends}, desktop-file-utils, lxde-common,
  lxpanel, openbox, pcmanfm (>= 0.9.8)
 Recommends: gksu, lxterminal | x-terminal-emulator, xscreensaver
-Suggests: chromium-browser | www-browser, lxlauncher
+Suggests: iceweasel | www-browser, lxlauncher
 Description: LXDE core metapackage
  LXDE (the Lightweight X11 Desktop Environment) is a project aimed
  to provide a desktop environment which is lightweight and fast.
@@ -35,7 +35,7 @@ Depends:
  lxde-core, lxde-icon-theme, lxinput,
  lxrandr, lxsession-edit, lxshortcut, lxterminal, obconf, xarchiver
 Recommends:
- chromium-browser | www-browser, gdm3 | x-display-manager, lxmusic, menu-xdg,
+ iceweasel | www-browser, gdm3 | x-display-manager, lxmusic, menu-xdg,
  lxpolkit, xserver-xorg
 Suggests: lxlauncher, lxtask
 Description: LXDE metapackage
