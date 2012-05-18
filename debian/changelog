@@ -1,3 +1,20 @@
+lxde-metapackages (2) unstable; urgency=low
+
+  [ Andrew Lee (李健秋) ]
+  * Recommends on gdm3.
+  * Adjusting Recommends for lxde meta package (policykit-1-gnome |
+    lxpolkit, network-manager-gnome | connman).
+
+  [ Sergey Slipchenko ]
+  * Recommend lxpolkit instead of policykit-1-gnome.
+
+  [ Daniel Baumann ]
+  * Removing superflous alternative browser in recommends.
+  * Restoring original recommends on iceweasel, now that it has improved
+    a lot.
+
+ -- Daniel Baumann <daniel@debian.org>  Fri, 18 May 2012 10:08:16 +0200
+
 lxde-metapackages (1) unstable; urgency=low
 
   * Initial release.
