@@ -1,3 +1,12 @@
+lxde-metapackages (3) unstable; urgency=low
+
+  * Adding galculator to lxde depends (Closes: #659577).
+  * Readding back network-manager-gnome which apparently got lost at
+    some point.
+  * Updating GPL blurb in copyright file.
+
+ -- Daniel Baumann <daniel@debian.org>  Sat, 07 Jul 2012 19:23:15 +0200
+
 lxde-metapackages (2) unstable; urgency=low
 
   [ Andrew Lee (李健秋) ]
