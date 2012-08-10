@@ -1,3 +1,9 @@
+lxde-metapackages (4) unstable; urgency=low
+
+  * Switching from gdm3 to lightdm.
+
+ -- Daniel Baumann <daniel@debian.org>  Fri, 10 Aug 2012 22:40:30 +0200
+
 lxde-metapackages (3) unstable; urgency=low
 
   * Adding galculator to lxde depends (Closes: #659577).
