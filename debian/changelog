@@ -1,3 +1,12 @@
+lxde-metapackages (4+nmu1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * guarantee proper migration from old enviroment to wheezy
+    Thanks to Andreas Beckmann <debian@abeckmann.de> for pointing this
+    out and patch (Closes: #694061)
+
+ -- Hideki Yamane <henrich@debian.org>  Sat, 24 Nov 2012 14:11:20 +0900
+
 lxde-metapackages (4) unstable; urgency=low
 
   * Switching from gdm3 to lightdm.
