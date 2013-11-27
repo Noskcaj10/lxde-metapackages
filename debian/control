@@ -5,7 +5,7 @@ Maintainer: Debian LXDE Maintainers <lxde-debian@lists.lxde.org>
 Uploaders:
  Andrew Lee (李健秋) <ajqlee@debian.org>, Daniel Baumann <daniel@debian.org>
 Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.3
+Standards-Version: 3.9.5
 Homepage: http://www.lxde.org/
 Vcs-Browser: http://git.lxde.org/gitweb/?p=debian/lxde-metapackages.git
 Vcs-Git: git://git.lxde.org/git/debian/lxde-metapackages.git
