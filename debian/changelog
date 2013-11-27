@@ -1,7 +1,7 @@
 lxde-metapackages (4+nmu1) unstable; urgency=low
 
   * Non-maintainer upload.
-  * guarantee proper migration from old enviroment to wheezy
+  * guarantee proper migration from old environment to wheezy
     Thanks to Andreas Beckmann <debian@abeckmann.de> for pointing this
     out and patch (Closes: #694061)
 
