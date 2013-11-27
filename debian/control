@@ -17,8 +17,8 @@ Depends:
  lxpanel, openbox, pcmanfm (>= 0.9.8)
 Recommends: gksu, lxterminal | x-terminal-emulator, xscreensaver
 Suggests: iceweasel | www-browser, lxlauncher
-Description: LXDE core metapackage
- LXDE (the Lightweight X11 Desktop Environment) is a project aimed
+Description: Metapackage for the LXDE core
+ The Lightweight X11 Desktop Environment (LXDE) is a project aimed
  to provide a desktop environment which is lightweight and fast.
  .
  This package is a metapackage depends on the recommended core components
@@ -38,8 +38,8 @@ Recommends:
  iceweasel | www-browser, lightdm | x-display-manager, lxmusic, menu-xdg,
  network-manager-gnome, lxpolkit, xserver-xorg
 Suggests: lxlauncher, lxtask
-Description: LXDE metapackage
- LXDE (the Lightweight X11 Desktop Environment) is a project aimed
+Description: Metapackage for LXDE
+ The Lightweight X11 Desktop Environment (LXDE) is a project aimed
  to provide a desktop environment which is lightweight and fast.
  .
  This package is a metapackage depends on the core components and
