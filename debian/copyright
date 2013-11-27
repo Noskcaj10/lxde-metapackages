@@ -1,7 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: n/a
-Upstream-Contact: n/a
-Source: n/a
+Upstream-Name: lxde-metapackages
+Source: http://packages.qa.debian.org/l/lxde-metapackages.html
 
 Files: *
 Copyright: 2008-2011 Andrew Lee (李健秋) <ajqlee@debian.org>
